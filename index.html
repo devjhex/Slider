@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Slider</title>
+</head>
+<body class="text-white">
+    <h1 class="text-center text-2xl mt-4">Slider</h1>
+
+
+    <div class="slider-container w-[80vw] max-w-[80rem] h-[40vh] overflow-hidden  relative mx-auto mt-[4rem] border-2 border-black rounded ">
+        <div class="slide w-full h-full absolute grid place-items-center text-center ease-in-out duration-[0.25s]">
+            <img class=" h-full object-cover" src="./images/image1.jpg" alt="nature">
+            <h1 class="text-center text-[5rem] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">1</h1>
+        </div>
+        <div class="slide w-full h-full absolute grid place-items-center text-center ease-in-out duration-[0.25s] bg-blue-300 ">
+            <h1 class="text-center text-[5rem] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">2</h1>
+        </div>
+        <div class="slide w-full h-full absolute grid place-items-center text-center ease-in-out duration-[0.25s] bg-blue-300 ">
+            <img class="h-full object-cover" src="./images/profile1.jpg" alt="">
+            <h1 class="text-center text-[5rem] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">3</h1>
+        </div>
+        <div class="slide w-full h-full absolute  text-center ease-in-out duration-[0.25s] bg-blue-300">
+            <img class="w-[5rem] mx-auto h-[5rem] rounded-full mb-4 mt-4" src="./images/profile1.jpg" alt="">
+            <p>Suzan doe</p>
+            <h1 class="text-center text-[5rem] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">4</h1>
+        </div>
+      
+    </div>
+    <div class="mt-2 w-max mx-auto font-bold flex">
+        <button class="prevBtn text-black hover:text-slate-700 transition-all mr-4">Previous</button>
+        <button class="nextBtn text-black hover:text-slate-700 transition-all">Next</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
