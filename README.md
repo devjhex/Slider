@@ -5,3 +5,4 @@ This is a simple image slider that is like an image slideshow where different im
 
 ## Tech stack
 This project is built in HTML, CSS and vanilla JavaScript. 
+## Screenshots 
